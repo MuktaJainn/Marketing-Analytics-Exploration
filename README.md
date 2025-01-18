@@ -50,6 +50,9 @@ This project involves a comprehensive analysis of customer feedback and social m
 
 ![Dashboard (1)](Readme(Images)/Query1.png)
 
+<img src="Readme(Images)/Query1.png" alt="Query1" width="25%">
+
+
 * **Query-2**
 
 ![Dashboard (2)](Readme(Images)/Query2.png)
