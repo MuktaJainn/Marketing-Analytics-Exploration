@@ -10,16 +10,16 @@ This project involves a comprehensive analysis of customer feedback and social m
 - **Need for Customer Feedback Analysis**: Understanding customer opinions about products and services is crucial for improving engagement and conversions.
 
 ## Technologies Used
--**SQL**: 
+-**SQL** : 
  * Restored data from a .bak file, cleaned the dataset, removed duplicates, and handled missing values.
    
--**Python**: 
+-**Python** : 
  * Used Pyodbc library to connect to the database.
  * Used pandas to execute SQL queries and convert the query results directly into a DataFrame for further analysis and processing.
  * Used nltk library to import SentimentIntensityAnalyzer to perform Sentiment Analysis.
  * Used pandas again, to covert the final Dataframe into a csv file.
    
--**PowerBI**:
+-**PowerBI** :
  * Used SQL queries to clean and transform data within Power BI (including removing duplicates and handling null values).
  * Applied DAX for advanced calculations, enabling the creation of interactive and dynamic visualizations.
  * Integrated data from Excel (generated from Python sentiment analysis) to build a comprehensive dashboard, providing valuable reporting and insights.
