@@ -32,7 +32,7 @@ This project involves a comprehensive analysis of customer feedback and social m
 
 
 
-## DASHBOARD (POWERBI)
+## DASHBOARD | PowerBI
 
 ![Dashboard (1)](Readme(Images)/Dashboard(1).png)
 
@@ -66,6 +66,17 @@ This project involves a comprehensive analysis of customer feedback and social m
 * **Query-5**
 
 <img src="Readme(Images)/Query5.png" alt="Query5" width="50%">
+
+---
+
+## Sentiment Analysis | Python
+
+<img src="Readme(Images)/1.png" alt="1" width="50%">
+<img src="Readme(Images)/2.png" alt="2" width="50%">
+<img src="Readme(Images)/3.png" alt="3" width="50%">
+<img src="Readme(Images)/4.png" alt="4" width="50%">
+
+
   
 
 
