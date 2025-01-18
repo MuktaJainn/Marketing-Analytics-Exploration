@@ -34,6 +34,8 @@ This project involves a comprehensive analysis of customer feedback and social m
 
 ## DASHBOARD (POWERBI)
 
+![Dashboard (1)](Readme(Images)/Dashboard(1).png)
+
 
 
 
