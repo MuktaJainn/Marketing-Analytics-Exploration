@@ -26,9 +26,9 @@ This project involves a comprehensive analysis of customer feedback and social m
 
 
 ## Key Performance Indicators (KPIs)
-***Conversion Rate** : Percentage of website visitors who make a purchase.
-***Customer Engagement Rate** : Level of interaction with marketing content (clicks, likes, comments).
-***Customer Feedback Score** : Average rating from customer reviews.
+- **Conversion Rate** : Percentage of website visitors who make a purchase.
+- **Customer Engagement Rate** : Level of interaction with marketing content (clicks, likes, comments).
+- **Customer Feedback Score** : Average rating from customer reviews.
 
 
 
