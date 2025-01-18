@@ -36,11 +36,11 @@ This project involves a comprehensive analysis of customer feedback and social m
 
 ![Dashboard (1)](Readme(Images)/Dashboard(1).png)
 
-![Dashboard (2)](Readme(Images)/Dashboard (2).png)
+![Dashboard (2)](Readme(Images)/Dashboard(2).png)
 
-![Dashboard (3)](Readme(Images)/Dashboard (3).png)
+![Dashboard (3)](Readme(Images)/Dashboard(3).png)
 
-![Dashboard (4)](Readme(Images)/Dashboard (4).png)
+![Dashboard (4)](Readme(Images)/Dashboard(4).png)
 
 
 
