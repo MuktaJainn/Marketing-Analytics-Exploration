@@ -47,27 +47,25 @@ This project involves a comprehensive analysis of customer feedback and social m
 ## SQL
 
 * **Query-1**
-
-![Dashboard (1)](Readme(Images)/Query1.png)
-
-<img src="Readme(Images)/Query1.png" alt="Query1" width="25%">
+  
+<img src="Readme(Images)/Query1.png" alt="Query1" width="50%">
 
 
 * **Query-2**
 
-![Dashboard (2)](Readme(Images)/Query2.png)
+<img src="Readme(Images)/Query2.png" alt="Query2" width="50%">
 
 * **Query-3**
 
-![Dashboard (3)](Readme(Images)/Query3.png)
+<img src="Readme(Images)/Query3.png" alt="Query3" width="50%">
 
 * **Query-4**
 
-![Dashboard (4)](Readme(Images)/Query4.png)
+<img src="Readme(Images)/Query4.png" alt="Query4" width="50%">
 
 * **Query-5**
 
-![Dashboard (4)](Readme(Images)/Query5.png)
+<img src="Readme(Images)/Query5.png" alt="Query5" width="50%">
   
 
 
