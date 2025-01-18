@@ -1,0 +1,51 @@
+// I renamed the tables in PowerBI.
+
+DAX used
+
+=> For creating measures :-
+
+1) For creating new measures,
+   
+    a) Clicks = SUM( fact_engagement_data[Clicks]) 
+    b) Likes = SUM(fact_engagement_data[Likes])
+    c) Number of Campaigns = DISTINCTCOUNT(fact_engagement_data[CampaignID])
+    d) Number of Customer Journeys = DISTINCTCOUNT(fact_customer_journey[JourneyID])
+    e) Number of Customer Reviews = DISTINCTCOUNT(fact_customer_reviews_with_sentiment_[ReviewID])
+    f) Rating (Average) = AVERAGE(fact_customer_reviews_with_sentiment_[Rating])
+    g) Views = SUM(fact_engagement_data[Views])
+    h) Conversion Rate = 
+
+		VAR TotalVisitors = CALCULATE(COUNT(fact_customer_journey[JourneyID]) , fact_customer_journey[Action]= "View")
+		VAR TotalPurchase = CALCULATE(
+    		COUNT(fact_customer_journey[JourneyID]) , 
+		fact_customer_journey[Action] ="Purchase"
+	)
+
+	RETURN 
+
+	IF(
+    		TotalVisitors = 0,
+    		0,
+    		DIVIDE(TotalPurchase,TotalVisitors)
+  	)
+
+2) For creating a new table Calendar,
+ 
+Calendar = 
+	ADDCOLUMNS (
+    		CALENDAR ( DATE ( 2023, 1, 1 ), DATE ( 2025, 12, 31 ) ),
+    		"DateAsInteger", FORMAT ( [Date], "YYYYMMDD" ),
+    		"Year", YEAR ( [Date] ),
+    		"Monthnumber", FORMAT ( [Date], "MM" ),
+    		"YearMonthnumber", FORMAT ( [Date], "YYYY/MM" ),
+    		"YearMonthShort", FORMAT ( [Date], "YYYY/mmm" ),
+    		"MonthNameShort", FORMAT ( [Date], "mmm" ),
+    		"MonthNameLong", FORMAT ( [Date], "mmmm" ),
+    		"DayOfWeekNumber", WEEKDAY ( [Date] ),
+    		"DayOfWeek", FORMAT ( [Date], "dddd" ),
+    		"DayOfWeekShort", FORMAT ( [Date], "ddd" ),
+    		"Quarter", "Q" & FORMAT ( [Date], "Q" ),
+    		"YearQuarter",
+        	FORMAT ( [Date], "YYYY" ) & "/Q"
+            	& FORMAT ( [Date], "Q" )
+		)
