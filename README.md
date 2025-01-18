@@ -42,7 +42,7 @@ This project involves a comprehensive analysis of customer feedback and social m
 
 ![Dashboard (4)](Readme(Images)/Dashboard(4).png)
 
-
+---
 
 ## SQL
 
