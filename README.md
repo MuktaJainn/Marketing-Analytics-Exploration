@@ -71,10 +71,10 @@ This project involves a comprehensive analysis of customer feedback and social m
 
 ## Sentiment Analysis | Python
 
-<img src="Readme(Images)/1.png" alt="1" width="50%">
-<img src="Readme(Images)/2.png" alt="2" width="50%">
-<img src="Readme(Images)/3.png" alt="3" width="50%">
-<img src="Readme(Images)/4.png" alt="4" width="50%">
+<img src="Readme(Images)/1.png" alt="1" width="75%">
+<img src="Readme(Images)/2.png" alt="2" width="75%">
+<img src="Readme(Images)/3.png" alt="3" width="75%">
+<img src="Readme(Images)/4.png" alt="4" width="75%">
 
 
   
